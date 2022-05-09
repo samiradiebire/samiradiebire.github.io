@@ -2,3 +2,21 @@
 layout: default
 title: Resources
 ---
+
+# Books, Articles & more
+
+## Introduction
+
+Here, you can find various lists of some of my must-read books and articles on topics that fascinate me and have helped me navigate spaces. 
+
+# Race and Racism 
+
+-How to Be an Antiracist by Ibram X. Kendi. Have you ever heard the phrase "I'm not racist but.."? While some people would think that the oppositive of being a racist is not to be one, Kendi here argues that anti-racism is the actual opposite, and he does this while looking into history, law, ethics and more. 
+
+(link: <https://afroribooks.co.uk/products/how-to-be-an-antiracist-by-ibram-x-kendi?_pos=1&_sid=c53f3ebb0&_ss=r>)
+
+-Why Are All the Black Kids Sitting Together in the Cafeteria? by Beverly Daniel Tatum. This book is excellent if you want to know more about how self-segregation can sometimes be a coping mechanism for black people.
+
+(link: [link](https://afroribooks.co.uk/products/why-are-all-the-black-kids-sitting-together-in-the-cafeteria-by-beverly-daniel-tatum-published-6-may-2021?_pos=1&_sid=4bdb2ab7f&_ss=r))
+
+-

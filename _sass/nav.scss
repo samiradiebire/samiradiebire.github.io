@@ -1,0 +1,72 @@
+$nav-height: 60px;
+
+/* Nav animation variables */
+$cross-shift: 19.2px;
+$cross-rotate: 45deg;
+
+/* Unopened */
+nav {
+    display: none;
+}
+
+/* Menu button appearance */
+#menu-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    height: $nav-height;
+    width: $nav-height;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    background: none;
+    border: none;
+}
+
+span {
+    width: 50px;
+    height: 4px;
+    margin: 0px;
+    background: blue;
+    opacity: 1;
+    z-index: 2;
+
+    border-radius: 50px;
+    transition: opacity 500ms, background-color 500ms, -webkit-transform 500ms;
+    -webkit-transition: opacity 500ms, background-color 500ms, -webkit-transform 500ms;
+    -o-transition: transform 500ms, opacity 500ms, background-color 500ms;
+    transition: transform 500ms, opacity 500ms, background-color 500ms;
+    transition: transform 500ms, opacity 500ms, background-color 500ms, -webkit-transform 500ms;
+}
+
+/* Menu button animation */
+
+.active>#menu-1 {
+    -webkit-transform: translate(0px, $cross-shift) rotate($cross-rotate);
+        -ms-transform: translate(0px, $cross-shift) rotate($cross-rotate);
+            transform: translate(0px, $cross-shift) rotate($cross-rotate);
+}
+
+.active>#menu-3 {
+    -webkit-transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
+        -ms-transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
+            transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
+}
+
+.active>#menu-2 {
+    -webkit-transform: translate(-4px, 0px);
+        -ms-transform: translate(-4px, 0px);
+            transform: translate(-4px, 0px);
+    opacity: 0;
+}

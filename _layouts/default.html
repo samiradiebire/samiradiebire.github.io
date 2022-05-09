@@ -5,9 +5,25 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
 
+        <!-- Fonts -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+        </style>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="/assets/css/style.css">
+
+        <!-- Scripts -->
+        <script src="/assets/js/menu.js" type="text/JavaScript"></script>
+
     </head>
     <body>
         <header>
+            <button class="menu-icon" id="menu-icon" onclick="menuFunction()">
+                <span id="menu-1"></span>
+                <span id="menu-2"></span>
+                <span id="menu-3"></span>
+            </button>
             {% include navigation.html %}
         </header>
         <main>
