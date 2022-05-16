@@ -11,7 +11,7 @@ header {
     color: $blu;
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 10px;
     text-align: center;
     z-index: 2;
     background: $yt;
@@ -79,8 +79,8 @@ nav {
     left: 0;
     z-index: 3;
 
-    height: $nav-height;
-    width: $nav-height;
+    height: 60px;
+    width: 60px;
 
     display: flex;
     -webkit-box-orient: vertical;
@@ -101,7 +101,7 @@ span {
     width: 50px;
     height: 4px;
     margin: 0px;
-    background: blue;
+    background: $blu;
     opacity: 1;
     z-index: 3;
 
