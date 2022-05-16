@@ -1,6 +1,7 @@
 /* Colours */
 $yt: rgb(255, 255, 255);
-$grey: rgb(28, 150, 232);
+$blu: rgb(28, 150, 232);
+$grey: #899b9f;
 
 /* Dynamic placements and widths */
 $mob-left: 2.5%;
@@ -19,6 +20,7 @@ $cross-rotate: 45deg;
 
 :root {
     font-family: 'Mulish', sans-serif;
+    color: black;
 }
 
 /* Body width and flex */

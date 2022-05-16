@@ -8,7 +8,7 @@ header {
 /* Name */
 .name {
     font-size: 16px;
-    color: $grey;
+    color: $blu;
     position: fixed;
     width: 100%;
     top: 0;
@@ -42,6 +42,7 @@ nav {
     /* Nav links */
     a {
         color: black;
+        font-weight: 400;
 
         margin: 4px 0px 4px 0px;
         padding: 0px;
@@ -52,6 +53,10 @@ nav {
         -o-transition: opacity 0.5s;
         transition: opacity 0.5s;
     }
+}
+
+.current {
+    color: $grey;
 }
 
 
@@ -109,7 +114,6 @@ span {
 }
 
 /* Menu button animation */
-
 .active>#menu-1 {
     -webkit-transform: translate(0px, $cross-shift) rotate($cross-rotate);
         -ms-transform: translate(0px, $cross-shift) rotate($cross-rotate);
