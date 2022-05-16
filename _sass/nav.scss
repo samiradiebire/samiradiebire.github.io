@@ -7,11 +7,11 @@ header {
 
 /* Name */
 .name {
-    font-size: 16px;
+    font-size: 32px;
     color: $blu;
     position: fixed;
     width: 100%;
-    top: 10px;
+    top: 0;
     text-align: center;
     z-index: 2;
     background: $yt;
@@ -140,6 +140,7 @@ span {
     /* PC Name Display */
     .name {
         font-size: 60px;
+        top: 0;
     }
 
     /* PC Nav Display */
