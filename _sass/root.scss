@@ -1,11 +1,61 @@
 /* Colours */
+$yt: rgb(255, 255, 255);
+
+/* Dynamic placements and widths */
+$mob-left: 2.5%;
+$mob-width: 95%;
+
+$tab-left: 25%;
+$tab-width: 50%;
+
+$pc-left: 30%;
+$pc-width: 40%;
+
+/* Nav animation variables */
+$nav-height: 60px;
+$cross-shift: 19.2px;
+$cross-rotate: 45deg;
 
 :root {
     font-family: 'EB Garamond', serif;
 }
 
-.profile {
-    border-radius: 50%;
-    width: 300px;
+/* Body width and flex */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-top: $nav-height * 1.5;
+    left: $mob-left;
+    width: $mob-width;
+}
+
+/* Media Queries */
+@media screen and (min-width: 920px) {
+    main {
+        left: $tab-width;
+        width: $tab-width;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    main {
+        left: $pc-width;
+        width: $pc-width;
+    }
 }
 

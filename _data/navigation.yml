@@ -1,10 +1,6 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
 - name: Resources
   link: /resources.html
-- name: Music
-  link: /music.html
 - name: CV
   link: /Samira_Diebire_CV.pdf
