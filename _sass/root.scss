@@ -1,5 +1,6 @@
 /* Colours */
 $yt: rgb(255, 255, 255);
+$grey: rgb(28, 150, 232);
 
 /* Dynamic placements and widths */
 $mob-left: 2.5%;
@@ -12,12 +13,12 @@ $pc-left: 30%;
 $pc-width: 40%;
 
 /* Nav animation variables */
-$nav-height: 60px;
+$nav-height: 40px;
 $cross-shift: 19.2px;
 $cross-rotate: 45deg;
 
 :root {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 /* Body width and flex */
@@ -39,7 +40,7 @@ main {
     flex-direction: column;
     justify-content: center;
     
-    padding-top: $nav-height * 1.5;
+    padding-top: $nav-height * 2;
     left: $mob-left;
     width: $mob-width;
 }
@@ -47,6 +48,7 @@ main {
 /* Media Queries */
 @media screen and (min-width: 920px) {
     main {
+        padding-top: 150px;
         left: $tab-width;
         width: $tab-width;
     }

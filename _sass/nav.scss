@@ -1,3 +1,24 @@
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    background: $yt;
+}
+
+/* Name */
+.name {
+    font-size: 16px;
+    color: $grey;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    z-index: 2;
+    background: $yt;
+    margin: 0px;
+    padding: 10px;
+}
+
 /* Unopened Navigation */
 nav {
     /* Nav position */
@@ -20,13 +41,11 @@ nav {
 
     /* Nav links */
     a {
-        // font-family: $sans;
-        font-size: 20px;
-        font-weight: bold;
-        // color: $grey;
+        color: black;
 
         margin: 4px 0px 4px 0px;
         padding: 0px;
+        text-decoration: none;
 
         opacity: 0;
         -webkit-transition: opacity 0.5s;
@@ -53,7 +72,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
 
     height: $nav-height;
     width: $nav-height;
@@ -79,7 +98,7 @@ span {
     margin: 0px;
     background: blue;
     opacity: 1;
-    z-index: 2;
+    z-index: 3;
 
     border-radius: 50px;
     transition: opacity 500ms, background-color 500ms, -webkit-transform 500ms;
@@ -114,8 +133,14 @@ span {
 /* Media Queries */ 
 @media screen and (min-width: 920px) {
 
+    /* PC Name Display */
+    .name {
+        font-size: 60px;
+    }
+
     /* PC Nav Display */
     nav {
+        top: $nav-height*2.25;
         height: $nav-height;
         background-color: $yt;
         flex-direction: row;
@@ -138,19 +163,4 @@ span {
         display: none;
     }
 
-}
-
-/* Media Queries */
-@media screen and (min-width: 920px) {
-    main {
-        left: $tab-left;
-        width: $tab-width;
-    }
-}
-
-@media screen and (min-width: 1500px) {
-    main {
-        left: $pc-left;
-        width: $pc-width;
-    }
 }
