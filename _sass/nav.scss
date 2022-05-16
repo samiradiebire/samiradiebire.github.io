@@ -17,6 +17,8 @@ header {
     background: $yt;
     margin: 0px;
     padding: 10px;
+
+    transition: font-size 0.5s;
 }
 
 /* Unopened Navigation */
@@ -150,6 +152,7 @@ span {
         background-color: $yt;
         flex-direction: row;
         justify-content: center;
+        transition: top 0.5s;
     
         /* PC Nav Links */
         a {
