@@ -9,12 +9,15 @@ Here, you can find various lists of some of my must-read books and articles on t
 
 # Race and Racism 
 
-{% for books in site.data.race_and_racism %}
-**{{books.title}}** by **{{books.author}}**
-<br>
-{{books.description}}
-<br>
-**Link:** <{{books.link}}>
+{% for book in site.data.race_and_racism %}
+**{{book.title}}** by **{{book.author}}**
+{% if book.description != nil %}
+{{book.description}}
+{% endif %}
+**Link:** <{{book.link}}>
+{% if forloop.last == false %}
+<hr>
+{% endif %}
 {% endfor %}
 
 <!---How to Be an Antiracist by Ibram X. Kendi. Have you ever heard the phrase "I'm not racist but.."? While some people would think that the oppositive of being a racist is not to be one, Kendi here argues that anti-racism is the actual opposite, and he does this while looking into history, law, ethics and more. 
