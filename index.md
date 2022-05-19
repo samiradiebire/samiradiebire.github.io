@@ -9,9 +9,7 @@ title: Home
 
 # Welcome!
 
-Hello, my name is Samira!
-
-I am a SeNSS funded 1+3 PhD Candidate in the Department of Government at the University of Essex. I research post-revolutionary violence, decolonisation, ethnic representation, public opinion and democratisation in Sub-Saharan Africa. 
+I am a SeNSS funded 1+3 PhD Candidate in the Department of Government at the University of Essex. I research post-revolutionary violence, decolonisation, ethnic representation, public opinion and democratisation in Sub-Saharan Africa.
 
 My thesis looks into the role of expectations in shaping political violence in a post-revolutionary context. I focus on Burkina Faso as a case study. 
 
