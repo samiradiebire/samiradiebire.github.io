@@ -3,7 +3,7 @@ layout: default
 title: Resources
 ---
 
-# Books, Articles & more
+# Books, Articles, & More
 
 Here, you can find various lists of some of my must-read books and articles on topics that fascinate me and have helped me navigate spaces. 
 
