@@ -1,0 +1,42 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    left: $mob-left;
+    width: $mob-width;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blu {
+    border-top: 1px solid $blu;
+}
+
+svg {
+    fill: $blu;
+}
+
+footer p {
+    margin: 0px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 920px) {
+    footer {
+        left: $tab-left;
+        width: $tab-width;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    footer {
+        left: $pc-left;
+        width: $pc-width;
+    }
+}
