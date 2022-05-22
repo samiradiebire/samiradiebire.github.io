@@ -5,12 +5,12 @@ title: Resources
 
 # Books, Articles, & More
 
-Here, you can find various lists of some of my must-read books and articles on topics that fascinate me and have helped me navigate spaces. 
+Here, you can find various lists of some of my must-read books, articles, music, and more on topics that fascinate me and have helped me navigate spaces. 
 
 # Race and Racism 
 
 {% for book in site.data.race_and_racism %}
-**{{book.title}}** by **{{book.author}}**
+**({{forloop.index}}) {{book.title}}** by **{{book.author}}**
 {% if book.description != nil %}
 {{book.description}}
 {% endif %}
