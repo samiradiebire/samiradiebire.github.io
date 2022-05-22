@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Research
+  link: /research.html
 - name: Resources
   link: /resources.html
 - name: CV
