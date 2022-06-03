@@ -5,7 +5,11 @@ title: Resources
 
 # Books, Articles, & More
 
-Here, you can find various lists of some of my must-read books, articles, music, and more on topics that fascinate me and have helped me navigate spaces. 
+Before I began my Masters, I co-founded and worked on the Essex Decolonise the Curriculum campaign. This campaign started with a survey I designed to understand students' academic experience at the University of Essex. The need for this survey emerged from discrepancies in student satisfaction and representation in the curriculum and overall learning experience.
+
+Through this campaign and the work of the Tackling Racism Group, of which I was a part, the university has now allocated a suite of resources to support this project and the advancement of BAME scholars in higher education. Whilst working on this theme, I assisted Dr Hannah Gibson, Dr Colin Reilly, and Dr Tracey Costley on "Decolonising the Curriculum \| The Work", a project funded by the Global Challenge Research Fund and partnered with scholars from South Africa. This project was a continuation of the initial campaign at Essex, and through this, I was involved in organising a series of focus groups and webinars on decolonising the curriculum.
+
+Here, you can find various lists of some of my must-read books, articles, music, and more on topics that fascinate me and have and are helping me navigate academia as a black muslim immigrant woman. 
 
 # Race and Racism 
 
