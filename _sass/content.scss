@@ -20,6 +20,13 @@ figure {
     width: 300px;
 }
 
+.bg-img {
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    width: 100vw;
+}
+
 hr {
     border-top: 1px solid $grey;
     width: 100%
