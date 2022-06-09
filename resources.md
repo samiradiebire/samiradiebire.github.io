@@ -1,7 +1,13 @@
 ---
 layout: default
 title: Resources
+image: /assets/images/resour_art.jpeg
 ---
+
+<!--figure>
+  <img src="/assets/images/resour_art.jpeg"
+  class="background">
+</figure-->
 
 # Books, Articles, & More
 
@@ -10,6 +16,19 @@ Before I began my Masters, I co-founded and worked on the Essex Decolonise the C
 Through this campaign and the work of the Tackling Racism Group, of which I was a part, the university has now allocated a suite of resources to support this project and the advancement of BAME scholars in higher education. Whilst working on this theme, I assisted Dr Hannah Gibson, Dr Colin Reilly, and Dr Tracey Costley on "Decolonising the Curriculum \| The Work", a project funded by the Global Challenge Research Fund and partnered with scholars from South Africa. This project was a continuation of the initial campaign at Essex, and through this, I was involved in organising a series of focus groups and webinars on decolonising the curriculum.
 
 Here, you can find various lists of some of my must-read books, articles, music, and more on topics that fascinate me and have and are helping me navigate academia as a black muslim immigrant woman. 
+
+<!--# Decolonising Academia
+
+{% for book in site.data.decolonising_academia %}
+**({{forloop.index}}) {{book.title}}** by **{{book.author}}**
+{% if book.description != nil %}
+{{book.description}}
+{% endif %}
+**Link:** <{{book.link}}>
+{% if forloop.last == false %}
+<hr>
+{% endif %}
+{% endfor %}-->
 
 # Race and Racism 
 
@@ -23,6 +42,8 @@ Here, you can find various lists of some of my must-read books, articles, music,
 <hr>
 {% endif %}
 {% endfor %}
+
+
 
 <!---How to Be an Antiracist by Ibram X. Kendi. Have you ever heard the phrase "I'm not racist but.."? While some people would think that the oppositive of being a racist is not to be one, Kendi here argues that anti-racism is the actual opposite, and he does this while looking into history, law, ethics and more. 
 
