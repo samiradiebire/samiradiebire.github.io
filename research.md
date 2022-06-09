@@ -1,7 +1,14 @@
 ---
 layout: default
 title: Research
+image: /assets/images/res_art.jpeg
 ---
+
+<!--figure>
+  <img src="/assets/images/res_art.jpeg"
+  class="background">
+</figure-->
+
 
 # PhD Thesis
 
