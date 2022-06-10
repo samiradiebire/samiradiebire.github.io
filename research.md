@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Research
-image: /assets/images/res_art.jpeg
+image: /assets/images/wat.jpeg
 ---
 
 <!--figure>
-  <img src="/assets/images/res_art.jpeg"
+  <img src="/assets/images/wat.jpeg"
   class="background">
 </figure-->
 
