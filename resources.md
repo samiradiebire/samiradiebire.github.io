@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Resources
-image: /assets/images/resour_art.jpeg
+image: /assets/images/researchwom.jpeg
 ---
 
 <!--figure>
-  <img src="/assets/images/resour_art.jpeg"
+  <img src="/assets/images/researchwom.jpeg"
   class="background">
 </figure-->
 
