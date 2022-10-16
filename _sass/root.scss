@@ -1,6 +1,6 @@
 /* Colours */
 $yt: rgb(255, 255, 255);
-$blu: #5D4A3E;//rgb(28, 150, 232);
+$blu: #343d46;//#5D4A3E;//rgb(28, 150, 232);
 $grey: #899b9f;
 
 /* Dynamic placements and widths */
@@ -21,6 +21,22 @@ $cross-rotate: 45deg;
 :root {
     font-family: 'Mulish', sans-serif;
     color: black;
+
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    // word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 /* Body width and flex */
