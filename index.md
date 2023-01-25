@@ -11,7 +11,7 @@ image: /assets/images/balcony.jpeg
 
 # Welcome!
 
-I am a 1+3 PhD Candidate in the Department of Government at the University of Essex, and I am currently finishing my MSc in Conflict Resolution. 
+I am a first year PhD Candidate in the Department of Government at the University of Essex. 
 
 <!--figure>
   <img src="/assets/images/samfav.jpeg" class="profile">
