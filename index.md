@@ -17,5 +17,4 @@ I am a first year PhD Candidate in the Department of Government at the Universit
   <img src="/assets/images/samfav.jpeg" class="profile">
 </figure-->
 
-I research post-revolutionary violence, decolonisation, ethnic representation, public opinion and democratisation in Sub-Saharan Africa. My thesis looks into the role of expectations in shaping political violence in a post-revolutionary context. Using survey data after Burkina Faso’s latest uprising in 2014, I argue that post-revolutionary political discontent can lead to the increase and diffusion of violence. My doctoral research is funded by the South East Network for Social Sciences (SeNSS).
-
+My research interests lie in post-revolutionary politics, political violence, decolonisation, ethnic representation, public opinion and democratisation in Sub-Saharan Africa. My thesis explores the role of expectations in shaping political violence in a post-revolutionary context. Using survey data collected after Burkina Faso’s latest uprising in 2014, I argue that post-revolutionary political discontent can lead to the increase and diffusion of violence. My doctoral research is funded by the South East Network for Social Sciences (SeNSS).
