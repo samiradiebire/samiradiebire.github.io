@@ -11,7 +11,7 @@ image: /assets/images/balcony.jpeg
 
 # Welcome!
 
-I am a first year PhD Candidate in the Department of Government at the University of Essex. 
+I am a second year PhD Candidate in the Department of Government at the University of Essex. 
 
 <!--figure>
   <img src="/assets/images/samfav.jpeg" class="profile">
